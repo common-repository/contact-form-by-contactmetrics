@@ -1,0 +1,84 @@
+
+.btn-primary,
+.nav-button {
+  color: #fff;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+  -moz-text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+  -o-text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0px inset;
+  box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0px inset;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #3b94e5;
+  background-image: -moz-linear-gradient(top, #3da0ea, #3983de);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3da0ea), to(#3983de));
+  background-image: -webkit-linear-gradient(top, #3da0ea, #3983de);
+  background-image: -o-linear-gradient(top, #3da0ea, #3983de);
+  background-image: linear-gradient(to bottom, #3da0ea, #3983de);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3da0ea', endColorstr='#ff3983de', GradientType=0);
+  border-color: #3983de #3983de #1d5eae;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #3983de;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border-color: #3c6791;
+}
+.btn-primary .caret,
+.nav-button .caret {
+  border-top-color: #fff;
+}
+.btn-primary:hover,
+.nav-button:hover,
+.btn-primary:focus,
+.nav-button:focus,
+.btn-primary:active,
+.nav-button:active,
+.btn-primary.active,
+.nav-button.active,
+.btn-primary.disabled,
+.nav-button.disabled,
+.btn-primary[disabled],
+.nav-button[disabled] {
+  color: #ffffff;
+  background-color: #3983de;
+  *background-color: #2475d9;
+}
+.btn-primary:active,
+.nav-button:active,
+.btn-primary.active,
+.nav-button.active {
+  background-color: #216ac3 \9;
+}
+.btn-primary.disabled,
+.nav-button.disabled,
+.btn-primary[disabled],
+.nav-button[disabled] {
+  background: #6ea8e6;
+  border-color: #668db2;
+}
+.btn-primary.disabled:active,
+.nav-button.disabled:active,
+.btn-primary[disabled]:active,
+.nav-button[disabled]:active,
+.btn-primary.disabled.active,
+.nav-button.disabled.active,
+.btn-primary[disabled].active,
+.nav-button[disabled].active {
+  background: #6ea8e6;
+}
+.open .btn-primary.dropdown-toggle,
+.open .nav-button.dropdown-toggle {
+  background: #3580dd !important;
+}
+
+.asteriskField {
+	color: #B94A48;
+}
+
+input, textarea, .uneditable-input {
+width: 275px;
+}
